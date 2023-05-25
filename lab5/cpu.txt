@@ -1,0 +1,63 @@
+N = 64 blocksize = 8:
+baseline elapsed time: 0.000588 sec
+avx elapsed time: 0.001184 sec
+verification passed!
+avx block elapsed time: 0.006385 sec
+verification passed!
+
+N = 64 blocksize = 16:
+baseline elapsed time: 0.000586 sec
+avx elapsed time: 0.001183 sec
+verification passed!
+avx block elapsed time: 0.003264 sec
+verification passed!
+
+N = 64 blocksize = 32:
+baseline elapsed time: 0.000586 sec
+avx elapsed time: 0.001203 sec
+verification passed!
+avx block elapsed time: 0.001653 sec
+verification passed!
+
+N = 256 blocksize = 8:
+baseline elapsed time: 0.033606 sec
+avx elapsed time: 0.008781 sec
+verification passed!
+avx block elapsed time: 0.124228 sec
+verification passed!
+
+N = 256 blocksize = 16:
+baseline elapsed time: 0.030898 sec
+avx elapsed time: 0.008880 sec
+verification passed!
+avx block elapsed time: 0.062587 sec
+verification passed!
+
+N = 256 blocksize = 32:
+baseline elapsed time: 0.029467 sec
+avx elapsed time: 0.008572 sec
+verification passed!
+avx block elapsed time: 0.031735 sec
+verification passed!
+
+N = 1024 blocksize = 8:
+baseline elapsed time: 3.031338 sec
+avx elapsed time: 0.290619 sec
+verification passed!
+avx block elapsed time: 8.100254 sec
+verification passed!
+
+N = 1024 blocksize = 16:
+baseline elapsed time: 3.035098 sec
+avx elapsed time: 0.289314 sec
+verification passed!
+avx block elapsed time: 4.032636 sec
+verification passed!
+
+N = 1024 blocksize = 32:
+baseline elapsed time: 3.030713 sec
+avx elapsed time: 0.288850 sec
+verification passed!
+avx block elapsed time: 1.994059 sec
+verification passed!
+
